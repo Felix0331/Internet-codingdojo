@@ -1,0 +1,109 @@
+/* ===========header========== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 970px;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+.globe-image{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+}
+.header1{
+    padding: 20px 0 5px 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.header1 span{
+    color: blue;
+    
+}
+.header2{
+    background-image: linear-gradient(blue, rgb(163, 163, 253), blue);
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ==============body================= */
+.side-bar{
+    display: inline-block;
+    max-width: 200px;
+}
+.ad-text{
+    word-wrap:break-word;
+}
+.ninja{
+    height: 100px;
+    width: 75px;
+    margin: auto;
+    display: block;
+}
+.blue-button{
+    background-color: blue;
+    display: block;
+    padding: 20px;
+}
+.yellow-button{
+    display: block;
+    background-color:yellow ;
+    padding: 10px 5px 10px 5px;
+}
+
+/* ad */
+.ads{
+    background-image: url(/WebFun/Internet/images/ad_background.png);
+    height: 300px;
+    display: inline-block;
+    
+}
+.ads p{
+    word-wrap: break-word;;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+
+}
+.ads-button{
+   margin: 15px auto;
+   display: block;
+   background-color: aqua;
+   border-radius: 3px; 
+   padding: 25px;
+}
+/* icons */
+.body{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+
+.body-icons{
+    display: inline-block;  
+}
+.home{
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.body-icons h3, .body-icons p{
+    display: inline-block;
+    vertical-align: top;
+} 
+.phone-icon{
+    margin-left:400px;
+    height: 50px;
+    
+}
+.phone-number{
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: top;
+}
+
+
